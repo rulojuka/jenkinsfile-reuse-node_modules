@@ -4,7 +4,8 @@
   "description": "A Jenkinsfile to reuse node_modules from previous builds",
   "main": "index.js",
   "scripts": {
-    "hello": "node src/index.js"
+    "clean": "rm -rf node_modules/",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
