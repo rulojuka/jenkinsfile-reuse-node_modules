@@ -1,0 +1,19 @@
+{
+  "name": "jenkinsfile-reuse-node_modules",
+  "version": "1.0.0",
+  "description": "A Jenkinsfile to reuse node_modules from previous builds",
+  "main": "index.js",
+  "scripts": {
+    "hello": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rulojuka/jenkinsfile-reuse-node_modules.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rulojuka/jenkinsfile-reuse-node_modules/issues"
+  },
+  "homepage": "https://github.com/rulojuka/jenkinsfile-reuse-node_modules#readme"
+}
