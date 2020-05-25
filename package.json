@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rulojuka/jenkinsfile-reuse-node_modules/issues"
   },
-  "homepage": "https://github.com/rulojuka/jenkinsfile-reuse-node_modules#readme"
+  "homepage": "https://github.com/rulojuka/jenkinsfile-reuse-node_modules#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
