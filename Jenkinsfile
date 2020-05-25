@@ -1,3 +1,9 @@
+node(){
+  def nodeHome = tool name: 'node-14-3-0', type: 'jenkins.plugins.nodejs.tools.NodeJSInstallation'
+  env.PATH="${nodeHome}/bin:${env.PATH}"
+  sh "echo $PATH"
+  sh "node -v"
+}
 pipeline {
     agent any
 
@@ -6,6 +12,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh "npm run clean"
+                sh "npm install"
                 echo 'Done building'
             }
         }
